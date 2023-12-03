@@ -1,0 +1,35 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 150px;
+}
+
+.about-container .about-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(26, 26, 97);
+}
+
+.about-description-container {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-description-container .description {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.about-description-container .image img {
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}

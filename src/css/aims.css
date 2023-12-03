@@ -1,0 +1,70 @@
+.aims-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 150px;
+}
+
+.objectives-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.objectives-container .title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(26, 26, 97);
+}
+
+.objectives-container .objectives-box {
+  margin-top: 10px;
+}
+
+.objectives-container .objectives-box ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 200;
+}
+
+.objectives-container .objectives-box ul li::before {
+  content: "➢";
+  color: rgb(26, 26, 97);
+  margin-right: 10px;
+}
+
+.objectives-container .objectives-box ul li {
+  font-size: 20px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 70px;
+  padding: 5px;
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.social-media .icon {
+  padding: 5px;
+  box-shadow: 0px 0 5px rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 50ms ease-in-out;
+  cursor: pointer;
+}
+
+.social-media .icon i {
+  color: rgb(111, 111, 61);
+}
+
+.social-media .icon:hover {
+  box-shadow: 0px 0 5px rgb(0, 0, 0, 0.2);
+}

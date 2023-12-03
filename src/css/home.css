@@ -1,0 +1,97 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.home-container .image-container {
+  position: relative;
+  z-index: -1;
+}
+
+.title-container {
+  padding-top: 280px;
+  font-weight: 200;
+  color: rgb(26, 26, 97);
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container .title {
+  font-weight: 300;
+  font-size: 7rem;
+}
+
+.title-container .subtitle {
+  font-size: 20px;
+  /* font-weight: 700; */
+}
+
+.title-container .description {
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 40px;
+  color: rgb(144, 144, 144);
+  width: 1300px;
+  text-align: center;
+  font-style: italic;
+}
+
+.service-scroll-container {
+  z-index: 10;
+  cursor: pointer;
+}
+
+.service-scroll {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: black;
+  font-size: 14px;
+}
+
+.service-scroll-container i {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: black;
+  opacity: 0; /* set initial opacity to 0 */
+  animation: fade-in-out 2s ease-in-out infinite; /* apply the animation */
+}
+
+.service-scroll-container i.two {
+  bottom: 45px;
+  font-size: 8px;
+  color: black;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,38 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 150px;
+}
+
+.services-container .services-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(26, 26, 97);
+}
+
+.services-container .services-description {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.services-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 200;
+  margin-top: 20px;
+  max-height: 170px;
+  flex-wrap: wrap;
+}
+
+.services-container ul li::before {
+  content: "➢";
+  color: rgb(26, 26, 97);
+  margin-right: 10px;
+}
+
+.services-container ul li {
+  font-size: 20px;
+}

@@ -1,0 +1,53 @@
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-container {
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navbar-container .left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-container .left-side img {
+  width: 100px;
+}
+
+.navbar-container .left-side .logo-two {
+  font-size: 8px;
+  color: blue;
+  font-weight: 600;
+}
+
+.navbar-container .right-side {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container .right-side ul {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar-container .right-side ul li {
+  list-style: none;
+  cursor: pointer;
+  color: rgb(0, 0, 0, 0.5);
+  transition: 100ms ease-in-out;
+}
+
+.navbar-container .right-side ul li:hover {
+  color: rgb(0, 0, 0, 1);
+}

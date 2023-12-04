@@ -21,7 +21,7 @@ export default function Home() {
         spy={true}
         smooth={true}
         duration={1000}
-        offset={-70}
+        offset={-120}
         className="service-scroll-container"
       >
         <div className="service-scroll">Services</div>

@@ -1,23 +1,46 @@
 import React from "react";
-import "../css/aims.css";
+import "../css/objectives.css";
 
 export default function Aims() {
   return (
     <>
       <div className="social-media">
-        <div className="icon">
+        <div
+          className="icon"
+          onClick={() =>
+            (window.location.href =
+              "mailto:manazil6616@gmail.com?subject=Manazil Query")
+          }
+        >
           <i class="fa-regular fa-envelope"></i>
         </div>
-        <div className="icon">
+        <div
+          className="icon"
+          onClick={() => {
+            window.location.href = "tel:+447376710903";
+          }}
+        >
           <i class="fa-solid fa-phone"></i>
         </div>
-        <div className="icon">
+        <div
+          className="icon"
+          onClick={() => {
+            window.location.href = window.open(
+              "https://maps.app.goo.gl/G9WuJUxzAi4U8bX86"
+            );
+          }}
+        >
           <i class="fa-solid fa-location-dot"></i>
         </div>
       </div>
-      <div className="aims-container">
+      <div className="aims-container" id="objectives">
         <div className="objectives-container">
           <div className="title">Objectives</div>
+          <div className="objectives-description">
+            We aim to deliver the finest and most cost-effective engineering
+            design, construction supervision and architectural services in the
+            United Kingdom that lead to the magnificent marvels.
+          </div>
           <div className="objectives-box">
             <ul>
               <li>

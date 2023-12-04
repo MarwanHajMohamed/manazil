@@ -1,7 +1,7 @@
 .services-container {
   display: flex;
   flex-direction: column;
-  margin: 20px 150px;
+  margin: 50px 150px;
 }
 
 .services-container .services-title {

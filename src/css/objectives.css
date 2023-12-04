@@ -17,6 +17,12 @@
   color: rgb(26, 26, 97);
 }
 
+.objectives-container .objectives-description {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 .objectives-container .objectives-box {
   margin-top: 10px;
 }

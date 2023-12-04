@@ -3,7 +3,7 @@ import "../css/services.css";
 
 export default function Services() {
   return (
-    <div className="services-container">
+    <div className="services-container" id="services">
       <div className="services-title">Services</div>
       <div className="services-description">
         We provide proffesional construction supervision and project management,

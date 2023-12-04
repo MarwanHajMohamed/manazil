@@ -6,15 +6,14 @@ import { Link } from "react-scroll";
 
 export default function Home() {
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
       <img src={bg} className="image-container" />
       <div className="title-container">
         <div className="title">MANAZIL</div>
         <div className="subtitle">ENGINEERING CONSULTANCY LTD UK</div>
         <div className="description">
-          We aim to create the finest and most cost-effective engineering
-          design, construction supervision and architectural services in the
-          United Kingdom.
+          We aim to deliver the most cost-effective engineering design and
+          architectural services in the United Kingdom.
         </div>
       </div>
       <Link

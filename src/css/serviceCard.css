@@ -1,0 +1,24 @@
+.serviceCard-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  height: 300px;
+  width: 240px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.serviceCard-container img {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.serviceCard-container .title {
+  font-size: 20px;
+  font-weight: 400;
+  /* margin-top: 10px; */
+  padding: 15px;
+  background-color: transparent;
+}

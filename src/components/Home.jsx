@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/home.css";
 import Logo from "../css/assets/Logo.png";
-import bg from "../css/assets/tile_background.png";
+import bg from "../css/assets/bg.png";
 import { Link } from "react-scroll";
 
 export default function Home() {
@@ -9,11 +9,14 @@ export default function Home() {
     <div className="home-container" id="home">
       <img src={bg} className="image-container" />
       <div className="title-container">
-        <div className="title">MANAZIL</div>
-        <div className="subtitle">ENGINEERING CONSULTANCY LTD UK</div>
-        <div className="description">
-          We aim to deliver the most cost-effective engineering design and
-          architectural services in the United Kingdom.
+        <div className="title-subtitle">
+          <div className="title">MANAZIL</div>
+          <div className="subtitle">ENGINEERING CONSULTANCY LTD UK</div>
+          <div className="description">
+            One of the best engineering consultants and architectural
+            consultancy company. We aim to deliver the most cost-effective
+            engineering design and architectural services.
+          </div>
         </div>
       </div>
       <Link

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px 150px 40px;
-  background-color: rgb(12, 63, 77);
+  background-color: #006480;
   color: white;
   margin-top: 50px;
 }
@@ -31,7 +31,8 @@
 
 .about-description-container .image {
   border-radius: 15px;
-  height: 370px;
+  max-height: 370px;
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.3);
 }
 
 .about-description-container .image-container {

@@ -1,5 +1,10 @@
 import React from "react";
 import "../css/services.css";
+import ServiceCard from "./common/ServiceCard";
+import office from "../css/assets/office.png";
+import apartments from "../css/assets/apartments.png";
+import factory from "../css/assets/factory.png";
+import school from "../css/assets/school.png";
 
 export default function Services() {
   return (
@@ -12,13 +17,18 @@ export default function Services() {
         control and supervise every aspect of construction work.
       </div>
       <ul>
-        <li>Office Building (Public and Private)</li>
-        <li>Residential Complex/Compound</li>
-        <li>Residential Apartments</li>
-        <li>Plants and Factories</li>
-        <li>Istitutional Buildings</li>
-        <li>Residential Palaces</li>
-        <li>Residential Villas</li>
+        <li>
+          <ServiceCard image={office} title={"Office Buildings"} />
+        </li>
+        <li>
+          <ServiceCard image={apartments} title={"Residential Apartments"} />
+        </li>
+        <li>
+          <ServiceCard image={factory} title={"Plants and Factories"} />
+        </li>
+        <li>
+          <ServiceCard image={school} title={"Institutional Buildings"} />
+        </li>
       </ul>
     </div>
   );

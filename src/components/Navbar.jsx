@@ -49,7 +49,7 @@ export default function Navbar() {
     setActive(id);
 
     window.scrollBy({
-      top: elementPosition - 120,
+      top: elementPosition - 90,
       behavior: "smooth",
     });
   };
@@ -79,16 +79,16 @@ export default function Navbar() {
               Objectives
             </li>
             <li
-              className={active === "services" ? "active" : ""}
-              onClick={() => handleNavItemClick("services")}
-            >
-              Services
-            </li>
-            <li
               className={active === "about" ? "active" : ""}
               onClick={() => handleNavItemClick("about")}
             >
               About
+            </li>
+            <li
+              className={active === "services" ? "active" : ""}
+              onClick={() => handleNavItemClick("services")}
+            >
+              Services
             </li>
             <li
               className={active === "contact" ? "active" : ""}

@@ -18,7 +18,7 @@
 }
 
 .objectives-container .objectives-description {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   margin-top: 10px;
 }
@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .objectives-container .objectives-box ul li::before {

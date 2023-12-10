@@ -7,9 +7,10 @@ export default function Footer() {
       <div className="section-one">
         <div className="address-container">
           <div className="address-title">Address</div>
-          <div className="address-line">164 West Hendon Broadway</div>
+          <div className="address-line">1 Aston Court</div>
+          <div className="address-line">Kingsmead Business Park</div>
           <div className="address-line">London, United Kingdom</div>
-          <div className="address-line">NW9 7AA</div>
+          <div className="address-line">HP11 1JU</div>
         </div>
         <div className="contact-footer-container">
           <div className="contact-title">Contact</div>

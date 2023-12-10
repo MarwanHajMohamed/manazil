@@ -19,7 +19,7 @@ export default function Footer() {
       </div>
       <div className="section-two">
         <div className="company">Manazil Engineering Consultancy LTD UK</div>
-        <div className="company">October 2023</div>
+        <div className="company">June 2023</div>
       </div>
     </div>
   );

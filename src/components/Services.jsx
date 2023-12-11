@@ -11,9 +11,9 @@ export default function Services() {
     <div className="services-container" id="services">
       <div className="services-title">Services</div>
       <div className="services-description">
-        We provide proffesional construction supervision and project management,
+        We provide professional construction supervision and project management,
         consultation specifically tailored to safeguard the successful
-        completion of projects. Our highly experienced personnel can effectively
+        completion of projects. Our highly experienced personnel effectively
         control and supervise every aspect of construction work.
       </div>
       <ul>

@@ -17,14 +17,15 @@
 
 .title-container {
   top: 130px;
-  padding-left: 150px;
+  left: 20px;
+  /* padding-left: 150px; */
   font-weight: 200;
   color: white;
   z-index: 2;
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .title-container .title {
@@ -46,7 +47,6 @@
   width: 800px;
   /* text-align: center; */
   font-style: italic;
-  max-width: 800px;
 }
 
 .service-scroll-container {
@@ -131,19 +131,6 @@
 
   .title-container .description {
     width: 400px;
-  }
-}
-
-@media (max-width: 870px) {
-  .title-container {
-    padding-left: 100px;
-  }
-}
-
-@media (max-width: 580px) {
-  .title-container {
-    top: 100px;
-    padding-left: 20px;
   }
 }
 

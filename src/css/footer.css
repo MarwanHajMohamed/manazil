@@ -26,3 +26,26 @@
   padding: 80px 0 20px;
   font-size: 12px;
 }
+
+@media (max-width: 1000px) {
+  .footer-container {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-container .section-one .address-title,
+  .footer-container .section-one .contact-title {
+    font-size: 20px;
+  }
+
+  .footer-container .section-one {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-container {
+    padding: 20px;
+  }
+}

@@ -51,7 +51,9 @@
 }
 
 .social-media .icon {
-  padding: 5px;
+  /* padding: 5px; */
+  width: 30px;
+  height: 30px;
   box-shadow: 0px 0 5px rgb(0, 0, 0, 0.5);
   border-radius: 50%;
   display: flex;

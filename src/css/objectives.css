@@ -74,3 +74,13 @@
 .social-media .icon:hover {
   box-shadow: 0px 0 5px rgb(0, 0, 0, 0.2);
 }
+
+@media (max-width: 1000px) {
+  .aims-container {
+    margin: 20px 100px;
+  }
+
+  .social-media {
+    left: 30px;
+  }
+}

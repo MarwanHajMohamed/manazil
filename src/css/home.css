@@ -131,12 +131,34 @@
 
   .title-container .description {
     width: 400px;
-    /* font-size: 12px; */
   }
 }
 
 @media (max-width: 870px) {
   .title-container {
     padding-left: 100px;
+  }
+}
+
+@media (max-width: 580px) {
+  .title-container {
+    top: 100px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  .title-container .title {
+    font-size: 2rem;
+  }
+  .title-container .description {
+    font-size: 14px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title-container .description {
+    width: 300px;
   }
 }

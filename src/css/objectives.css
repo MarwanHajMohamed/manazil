@@ -101,10 +101,6 @@
   .social-media {
     left: 20px;
   }
-
-  .social-media .icon i {
-    font-size: 10px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -117,8 +113,5 @@
     flex-direction: row;
     right: 20px;
     justify-content: flex-end;
-  }
-
-  .objectives-container .objectives-box ul li {
   }
 }

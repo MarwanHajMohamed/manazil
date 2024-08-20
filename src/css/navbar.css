@@ -12,6 +12,7 @@
   padding-left: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: white;
 }
 
@@ -55,4 +56,67 @@
 
 .navbar-container .right-side ul li.active {
   color: rgb(0, 0, 0, 1);
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Styles for screens with a width of 800px or less */
+@media screen and (max-width: 800px) {
+  .navbar-container .left-side img {
+    width: 70px;
+  }
+  .navbar-container .left-side .logo-two {
+    font-size: 6px;
+  }
+
+  .right-side {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    max-height: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-side.open {
+    max-height: 300px;
+  }
+
+  .list-container {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .list-container li {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    border-top: 1px solid #ddd;
+    /* border: 1px solid red; */
+  }
+
+  .navbar-container .right-side ul {
+    gap: 10px;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .right-side {
+    display: none;
+  }
+
+  .right-side.show {
+    display: flex;
+  }
 }

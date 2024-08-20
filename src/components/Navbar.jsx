@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback, useEffect } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import "../css/navbar.css";
 import LogoImage from "../css/assets/Logo-Image.png";
 
@@ -8,8 +8,7 @@ export default function Navbar() {
   const [scrollUp, setScrollUp] = useState(false);
 
   const handleNavToggle = () => {
-    const state = toggle;
-    setToggle(!state);
+    setToggle(!toggle);
   };
 
   const handleNavItemClick = (item) => {
@@ -53,6 +52,7 @@ export default function Navbar() {
       behavior: "smooth",
     });
   };
+
   return (
     <div className="navbar-wrapper">
       <div className="navbar-container">
@@ -64,7 +64,15 @@ export default function Navbar() {
           />
           <div className="logo-two">ENGINEERING CONSULTANCY LTD UK</div>
         </div>
-        <div className="right-side">
+        <div className="hamburger" onClick={handleNavToggle}>
+          {!toggle ? (
+            <i class="fa-solid fa-bars"></i>
+          ) : (
+            <i class="fa-solid fa-xmark"></i>
+          )}
+          {/* HTML code for the hamburger icon */}
+        </div>
+        <div className={`right-side ${toggle ? "open" : ""}`}>
           <ul className="list-container">
             <li
               className={active === "home" ? "active" : ""}

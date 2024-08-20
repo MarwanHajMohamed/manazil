@@ -10,6 +10,7 @@ export default function Services() {
   return (
     <div className="services-container" id="services">
       <div className="services-title">Services</div>
+      <hr />
       <div className="services-description">
         We provide professional construction supervision and project management,
         consultation specifically tailored to safeguard the successful

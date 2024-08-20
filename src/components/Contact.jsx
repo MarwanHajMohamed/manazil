@@ -5,6 +5,7 @@ export default function Contact() {
   return (
     <div className="contact-container" id="contact">
       <div className="contact-title">Contact</div>
+      <hr />
       <div className="contact-top">
         <div className="map">
           <iframe

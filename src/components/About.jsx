@@ -7,6 +7,7 @@ export default function About() {
   return (
     <div className="about-container" id="about">
       <div className="about-title">About</div>
+      <hr />
       <div className="about-description-container">
         <div className="image-container">
           <img src={Man} className="image" />

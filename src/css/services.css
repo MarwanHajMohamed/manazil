@@ -2,9 +2,12 @@
   display: flex;
   flex-direction: column;
   margin: 50px 150px;
+  align-items: center;
 }
 
 .services-container .services-title {
+  text-align: left;
+  width: 100%;
   font-size: 2rem;
   font-weight: 500;
   color: rgb(26, 26, 97);
@@ -21,4 +24,40 @@
   display: flex;
   gap: 50px;
   margin-top: 50px;
+  padding: 0;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .services-container ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+}
+
+@media (max-width: 1000px) {
+  .services-container {
+    margin: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .services-container .services-title {
+    font-size: 20px;
+  }
+
+  .services-container .services-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .services-container ul {
+    grid-template-columns: 1fr;
+  }
 }

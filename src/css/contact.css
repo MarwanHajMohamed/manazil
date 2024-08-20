@@ -49,3 +49,26 @@
   border-radius: 50%;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
+
+@media (max-width: 1000px) {
+  .contact-container {
+    padding: 10px 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-container .contact-title {
+    font-size: 20px;
+  }
+
+  .contact-container .contact-bottom {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact-container .contact-bottom {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

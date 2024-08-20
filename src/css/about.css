@@ -38,6 +38,36 @@
 }
 
 .about-description-container .image-container {
-  width: 1000px;
-  padding: 0 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 1200px) {
+  .about-description-container .image {
+    height: 300px;
+  }
+
+  .about-description-container .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-container {
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-container .about-title {
+    font-size: 20px;
+  }
+
+  .about-description-container .image {
+    height: 200px;
+  }
+
+  .about-description-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

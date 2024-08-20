@@ -1,23 +1,9 @@
 import React from "react";
 import "../css/about.css";
-import "react-alice-carousel/lib/alice-carousel.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import Man from "../css/assets/man.png";
 
 export default function About() {
-  const arrowStyles = {
-    position: "absolute",
-    zIndex: 2,
-    top: "calc(50% - 50px)",
-    width: 30,
-    height: 30,
-    cursor: "pointer",
-    backgroundColor: "transparent",
-    border: "0",
-    fontSize: "60px",
-    color: "rgb(26, 26, 97)",
-  };
   return (
     <div className="about-container" id="about">
       <div className="about-title">About</div>

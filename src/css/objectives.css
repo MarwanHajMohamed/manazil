@@ -51,7 +51,6 @@
 }
 
 .social-media .icon {
-  /* padding: 5px; */
   width: 30px;
   height: 30px;
   box-shadow: 0px 0 5px rgb(0, 0, 0, 0.5);
@@ -74,19 +73,18 @@
 
 @media (max-width: 1000px) {
   .aims-container {
-    margin: 20px 100px;
+    margin: 20px 30px;
   }
 
   .social-media {
-    left: 30px;
+    display: flex;
+    flex-direction: row;
+    right: 20px;
+    justify-content: flex-end;
   }
 }
 
 @media (max-width: 800px) {
-  .aims-container {
-    margin: 20px 50px;
-  }
-
   .objectives-container .title {
     font-size: 20px;
   }
@@ -98,10 +96,6 @@
 
   .objectives-container .objectives-box ul li {
     font-size: 1rem;
-  }
-
-  .social-media {
-    left: 20px;
   }
 }
 

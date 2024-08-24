@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/home.css";
-import Logo from "../css/assets/Logo.png";
 import bg from "../css/assets/bg.png";
 import { Link } from "react-scroll";
 

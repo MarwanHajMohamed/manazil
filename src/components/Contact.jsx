@@ -4,7 +4,10 @@ import "../css/contact.css";
 export default function Contact() {
   return (
     <div className="contact-container" id="contact">
-      <div className="contact-title">Contact</div>
+      <div className="title">
+        <div className="line"></div>
+        <div className="contact-title">Contact</div>
+      </div>
       <hr />
       <div className="contact-top">
         <div className="map">

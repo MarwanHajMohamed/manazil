@@ -6,7 +6,10 @@ export default function Aims() {
     <>
       <div className="aims-container" id="objectives">
         <div className="objectives-container">
-          <div className="title">Objectives</div>
+          <div className="title">
+            <div className="line" />
+            <div>Objectives</div>
+          </div>
           <hr />
           <div className="objectives-description">
             We aim to deliver the finest and most cost-effective engineering

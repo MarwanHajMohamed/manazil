@@ -9,7 +9,10 @@ import school from "../css/assets/school.png";
 export default function Services() {
   return (
     <div className="services-container" id="services">
-      <div className="services-title">Services</div>
+      <div className="title">
+        <div className="line"></div>
+        <div className="services-title">Services</div>
+      </div>
       <hr />
       <div className="services-description">
         We provide professional construction supervision and project management,

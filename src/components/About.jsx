@@ -1,14 +1,13 @@
 import React from "react";
 import "../css/about.css";
 
-import Man from "../css/assets/man.png";
-
-import Logo from "../css/assets/Logo.png";
-
 export default function About() {
   return (
     <div className="about-container" id="about">
-      <div className="about-title">About</div>
+      <div className="title">
+        <div className="line"></div>
+        <div className="about-title">About</div>
+      </div>
       <hr />
       <div className="about-description-container">
         <div className="description-container">

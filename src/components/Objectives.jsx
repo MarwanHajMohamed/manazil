@@ -39,14 +39,7 @@ export default function Aims() {
           >
             <i class="fa-regular fa-envelope"></i>
           </div>
-          <div
-            className="icon"
-            onClick={() => {
-              window.location.href = "tel:+447376710903";
-            }}
-          >
-            <i class="fa-solid fa-phone"></i>
-          </div>
+
           <div
             className="icon"
             onClick={() => {

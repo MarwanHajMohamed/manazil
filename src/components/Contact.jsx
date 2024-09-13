@@ -19,15 +19,6 @@ export default function Contact() {
       <div className="contact-bottom">
         <div
           className="item-container"
-          onClick={() => {
-            window.location.href = "tel:+447376710903";
-          }}
-        >
-          <i class="fa-solid fa-phone"></i>
-          <div className="item">+44 7376 710903</div>
-        </div>
-        <div
-          className="item-container"
           onClick={() =>
             (window.location.href =
               "mailto:manazil6616@gmail.com?subject=Manazil Query")

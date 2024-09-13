@@ -3,15 +3,14 @@ import "../css/about.css";
 
 import Man from "../css/assets/man.png";
 
+import Logo from "../css/assets/Logo.png";
+
 export default function About() {
   return (
     <div className="about-container" id="about">
       <div className="about-title">About</div>
       <hr />
       <div className="about-description-container">
-        <div className="image-container">
-          <img src={Man} className="image" />
-        </div>
         <div className="description-container">
           <div className="description">
             <span style={{ fontWeight: "700" }}>Manazil</span>, one of the best

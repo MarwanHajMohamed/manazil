@@ -5,22 +5,24 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div className="section-one">
-        <div className="address-container">
-          <div className="address-title">Address</div>
-          <div className="address-line">1 Aston Court</div>
-          <div className="address-line">Kingsmead Business Park</div>
-          <div className="address-line">London, United Kingdom</div>
-          <div className="address-line">HP11 1JU</div>
+        <div className="container">
+          <div className="title">Address</div>
+          <div className="description">1 Aston Court</div>
+          <div className="description">Kingsmead Business Park</div>
+          <div className="description">London, United Kingdom</div>
+          <div className="description">HP11 1JU</div>
         </div>
-        <div className="contact-footer-container">
-          <div className="contact-title">Contact</div>
-          <div className="contact">+44 7376 710903</div>
-          <div className="contact">manazil6616@gmail.com</div>
+        <div className="container">
+          <div className="title">Opening hours</div>
+          <div className="description">Monday-Friday: 9am-4pm</div>
+          <div className="description">Saturday-Sunday: Closed</div>
+          <div className="title">Contact</div>
+          <div className="description">manazil6616@gmail.com</div>
         </div>
       </div>
       <div className="section-two">
         <div className="company">Manazil Engineering Consultancy LTD UK</div>
-        <div className="company">June 2023</div>
+        <div className="company">June 2022</div>
       </div>
     </div>
   );

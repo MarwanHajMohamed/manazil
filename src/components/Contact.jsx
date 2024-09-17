@@ -24,11 +24,11 @@ export default function Contact() {
           className="item-container"
           onClick={() =>
             (window.location.href =
-              "mailto:manazil6616@gmail.com?subject=Manazil Query")
+              "mailto:contact@manazilconsultancy.co.uk?subject=Manazil Query")
           }
         >
           <i class="fa-regular fa-envelope"></i>
-          <div className="item">manazil6616@gmail.com</div>
+          <div className="item">contact@manazilconsultancy.co.uk</div>
         </div>
       </div>
     </div>

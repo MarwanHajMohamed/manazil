@@ -37,7 +37,7 @@ export default function Aims() {
             className="icon"
             onClick={() =>
               (window.location.href =
-                "mailto:manazil6616@gmail.com?subject=Manazil Query")
+                "mailto:contact@manazilconsultancy.co.uk?subject=Manazil Query")
             }
           >
             <i class="fa-regular fa-envelope"></i>

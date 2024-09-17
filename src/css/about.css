@@ -4,12 +4,7 @@
   padding: 20px 150px 40px;
   color: white;
   margin-top: 50px;
-  background-image: url(/src/css/assets/Logo-Image.png);
   background-color: #006480;
-  background-blend-mode: multiply;
-  background-repeat: space;
-  background-size: 40%;
-  background-position: center;
 }
 
 .about-container .title {

@@ -5,6 +5,7 @@ import office from "../css/assets/office.png";
 import apartments from "../css/assets/apartments.png";
 import factory from "../css/assets/factory.png";
 import school from "../css/assets/school.png";
+import modelling from "../css/assets/modelling.png";
 
 export default function Services() {
   return (
@@ -15,10 +16,10 @@ export default function Services() {
       </div>
       <hr />
       <div className="services-description">
-        We provide professional construction supervision and project management,
-        consultation specifically tailored to safeguard the successful
-        completion of projects. Our highly experienced personnel effectively
-        control and supervise every aspect of construction work.
+        We offer specialized consultations for project management and designs
+        ensuring the successful completion of projects. Our team of experienced
+        professionals provides tailored guidance to navigate every aspect of the
+        design process.
       </div>
       <ul>
         <li>
@@ -28,7 +29,7 @@ export default function Services() {
           <ServiceCard image={apartments} title={"Residential Apartments"} />
         </li>
         <li>
-          <ServiceCard image={factory} title={"Plants and Factories"} />
+          <ServiceCard image={modelling} title={"3d Modelling"} />
         </li>
         <li>
           <ServiceCard image={school} title={"Institutional Buildings"} />

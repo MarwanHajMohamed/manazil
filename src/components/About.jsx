@@ -13,10 +13,10 @@ export default function About() {
         <div className="description-container">
           <div className="description">
             <span style={{ fontWeight: "700" }}>Manazil</span>, one of the best
-            engineering consultants and architectural consultancy company based
-            in UAE. Since its inauguration, Manazil has distinguished itself
-            regionally and internationally, being recognised for its excellent
-            and quality-driven design and engineering services.
+            engineering consultants and architectural consultancy company. Since
+            its inauguration, Manazil has distinguished itself regionally and
+            internationally, being recognised for its excellent and
+            quality-driven design and engineering services.
           </div>
           <div className="description">
             We have an excellent industry-wide reputation and are well regarded
@@ -29,9 +29,8 @@ export default function About() {
 
           <div className="description">
             Our employees are highly qualified with professional and practical
-            backgrounds deriving from any different professions: Architects,
-            Engineers, Technical Staffs and Managers. Our engineers are
-            experienced in a wide range of projects in all sales.
+            backgrounds deriving from any different professions. Our engineers
+            are experienced in a wide range of projects in all sales.
           </div>
           <div className="description">
             Furthermore, every employee is characterised by an open mindset and

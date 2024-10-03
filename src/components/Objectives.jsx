@@ -13,13 +13,13 @@ export default function Aims() {
           <hr />
           <div className="objectives-description">
             We aim to deliver the finest and most cost-effective engineering
-            design, construction supervision and architectural services that
-            lead to the magnificent marvels.
+            design and architectural services that lead to the magnificent
+            marvels.
           </div>
           <div className="objectives-box">
             <ul>
               <li>
-                To focus best construction practices and to achieve excellent
+                To focus best design consultancy and to achieve excellent
                 quality with transparency in each stage of work.
               </li>
               <li>

@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
         <div className="container">
           <div className="title">Opening hours</div>
-          <div className="description">Monday-Friday: 9am-4pm</div>
+          <div className="description">Monday-Friday: 9am-5pm</div>
           <div className="description">Saturday-Sunday: Closed</div>
           <div className="title">Contact</div>
           <div className="description">contact@manazilconsultancy.co.uk</div>

@@ -6,13 +6,17 @@
 }
 
 .navbar-container {
-  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
   padding: 10px;
   padding-right: 30px;
   padding-left: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
+}
+
+.navbar-container.white {
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
   background-color: white;
 }
 
@@ -46,8 +50,13 @@
 .navbar-container .right-side ul li {
   list-style: none;
   cursor: pointer;
-  color: rgb(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255, 0.6);
   transition: 100ms ease-in-out;
+  font-weight: 700;
+}
+
+.navbar-container.white .right-side ul li {
+  color: rgb(0, 0, 0, 0.5);
 }
 
 .navbar-container .right-side ul li:hover {
@@ -62,13 +71,39 @@
   display: none;
 }
 
+.navbar-container .left-side img.hide {
+  display: none;
+}
+
+.navbar-container .left-side .logo-two.hide {
+  display: none;
+}
+
 /* Styles for screens with a width of 800px or less */
 @media screen and (max-width: 800px) {
+  .navbar-container {
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    background-color: white;
+  }
+
+  .navbar-container .right-side ul li {
+    color: rgb(0, 0, 0, 0.5);
+  }
+
   .navbar-container .left-side img {
     width: 70px;
   }
+
+  .navbar-container .left-side img.hide {
+    display: block;
+  }
+
   .navbar-container .left-side .logo-two {
     font-size: 6px;
+  }
+
+  .navbar-container .left-side .logo-two.hide {
+    display: block;
   }
 
   .right-side {

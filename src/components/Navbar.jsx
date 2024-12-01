@@ -6,6 +6,7 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState("home");
   const [scrollUp, setScrollUp] = useState(false);
+  const [navBg, setNavBg] = useState(false);
 
   const handleNavToggle = () => {
     setToggle(!toggle);
@@ -53,16 +54,25 @@ export default function Navbar() {
     });
   };
 
+  const changeNavBg = () => {
+    window.scrollY >= 400 ? setNavBg(true) : setNavBg(false);
+  };
+
+  window.addEventListener("scroll", changeNavBg);
+
   return (
-    <div className="navbar-wrapper">
-      <div className="navbar-container">
+    <div className="navbar-wrapper" onScroll={changeNavBg}>
+      <div className={navBg ? "navbar-container white" : "navbar-container"}>
         <div className="left-side">
           <img
             src={LogoImage}
             alt="Manazil"
             onClick={() => handleNavItemClick("home")}
+            className={navBg ? "" : "hide"}
           />
-          <div className="logo-two">ENGINEERING CONSULTANCY LTD UK</div>
+          <div className={navBg ? "logo-two" : "logo-two hide"}>
+            ENGINEERING CONSULTANCY LTD UK
+          </div>
         </div>
         <div className="hamburger" onClick={handleNavToggle}>
           {!toggle ? (
